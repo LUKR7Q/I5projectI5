@@ -1,0 +1,12 @@
+[submodule "frontI5"]
+	path = frontI5
+	url = https://github.com/LUKR7Q/frontI5.git
+[submodule "backI5"]
+	path = backI5
+	url = https://github.com/LUKR7Q/backI5.git
+[submodule "IoTI5"]
+	path = IoTI5
+	url = https://github.com/LUKR7Q/IoTI5.git
+[submodule "AIserverI5"]
+	path = AIserverI5
+	url = https://github.com/LUKR7Q/AIserverI5.git
