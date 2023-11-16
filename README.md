@@ -77,7 +77,14 @@ yolo5 AI가 탑재된 RasberryPi 카메라 모듈로
 <center>
     <img src="./img/camera.gif" />
 </center>
-어떤 어떤 어떤 걸 작성하는 게시판 기능
+
+```sh
+프론트엔드와 백엔드 사이에는 Kafka가 있다.
+- 프론트엔드에서 카메라 off 버튼을 누르면 "off" 메시지가 백엔드로 전달이된다.
+- 백엔드에서 "off" 메시지를 받아서 장비 상태는 status : "off"로 바뀐다.
+- 프론트엔드의 카메라 상태는 위의 이미지와 같이 카메라 작동이 멈춘다.
+on버튼도 마찬가지
+``````
 
 <br>
 
@@ -86,7 +93,7 @@ yolo5 AI가 탑재된 RasberryPi 카메라 모듈로
 <center>
     <img src="./img/db2.gif" />
 </center>
-어떤 어떤 어떤 걸 작성하는 게시판 기능
+
 
 <br>
 
